@@ -1,4 +1,4 @@
-// import logo from './logo.svg';     // We remove this import of logo as we are not using currently
+// import logo from './logo.svg';
 
 import React, { useState } from 'react'
 
@@ -15,7 +15,7 @@ import Alert from './Components/Alert';
 
 // import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";  // This is old one & it is depricated
 
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';    // This is new one after deprication of above
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';    // This is new one in latest version
 
 
 
@@ -61,7 +61,7 @@ function App() {
 
 
 
-      <Navbar titel="Text_Utilities" HomeTexts="Home" AboutTexts="About Us" mode={mode} toggleMode={toggleMode} />   {/* Her we passed props to the */}
+      <Navbar titel="Text_Utilities" HomeTexts="Home" AboutTexts="About Us" mode={mode} toggleMode={toggleMode} />   {/* Her we passed props */}
 
       {/* <Navbar/>    */}
       {/* When we not pass any Props like above then the React app will take Default Propes from the Navbar.js component */}
@@ -108,34 +108,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
-// Below code is the initial code when we copy it from the reference website - It is for example & nothing use of it
-
-// let name = "Sanjay";    // This code is written by me    // This is also we removed as we are not using currently
-
-/* -------------- Below entire code we cut from the above function App() as we start to write our own code --------------- */
-
-// return (
-//   <div className="App">
-//     <header className="App-header">
-//       <img src={logo} className="App-logo" alt="logo" />
-//       <p>
-//         Edit <code>src/App.js</code> and save to reload.
-//       </p>
-//       <a
-//         className="App-link"
-//         href="https://reactjs.org"
-//         target="_blank"
-//         rel="noopener noreferrer"
-//       >
-//         Learn React With NBB
-//       </a>
-//     </header>
-//   </div>
-// );
-
-/* ----------------------------------------------------------------------------------------------------------- */
