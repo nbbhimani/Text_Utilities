@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 
 export default function TextForm(props) {
     
-    const [text, setText] = useState('Enter text here');
+    const [text, setText] = useState("");
 
 
     const handleOnChange = (event) =>{
